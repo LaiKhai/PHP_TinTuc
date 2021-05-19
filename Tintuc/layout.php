@@ -1,0 +1,21 @@
+<?php
+    if($isIndex==true)
+    {
+        require_once($level.head_path."menu_index.php");
+        require_once($level.head_path."navigation_index.php");
+        require_once($level.head_path."slideshow_index.php");
+        require_once($level.body_path."tabmenu_index.php");
+        require_once($level.body_path."thongke_index.php");
+        require_once($level.body_path."listbaiviet_index.php");
+        require_once($level.footer_path."footer_index.php");
+    }
+    if($isDetail==true)
+    {
+        require_once($level.head_path."menu.php");
+        require_once($level.body_path."baivietchitiet.php");
+        require_once($level.body_path."baivietlienquan.php");
+        require_once($level.footer_path."binhluan.php");
+        require_once($level.footer_path."Footer.php");
+    }
+
+?>
