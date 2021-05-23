@@ -35,13 +35,13 @@
                             </ul>
             </div>
             <li class="nav-item col-6 col-md-auto">
-                <a class="nav-link p-2" href="">Liên Hệ</a>
+                <a class="nav-link p-2" href="">Tìm Kiếm</a>
             </li>
             <li class="nav-item col-6 col-md-auto">
-                <a class="nav-link p-2 " " href="" >Thông Tin</a>
+                <a class="nav-link p-2 " " href="" >Trang Quản Trị</a>
                 </li>
                 <li class=" nav-item col-6 col-md-auto">
-                    <a class="nav-link p-2 " " href="" >Tin Tức</a>
+                    <a class="nav-link p-2 " " href="" >Đăng Nhập</a>
                             </li>
                 </li>
               </ul>
