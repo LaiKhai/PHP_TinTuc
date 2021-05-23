@@ -77,7 +77,7 @@ transition: 1.5s;
     max-width: 70%;
 }
 .view{
-	background: url('/Tintuc/img/cover_img_1.jpg');
+	background-image: url("cover_img_1.jpg");
     background-size: contain;
     background-attachment: fixed;
 }

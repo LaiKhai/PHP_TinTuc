@@ -18,16 +18,10 @@
             </p>
         </div>
         <div class="col-md-3 mt-4">
-            <h5>Hình ảnh</h5>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-6 p-0" style="height:4rem;overflow:hidden;"><img src="img/building-2.jpg" alt="">
-                    </div>
-                    <div class="col-6 p-0" style="height:4rem;overflow:hidden;"><img src="img/building-5.jpg" alt="">
-                    </div>
-                    <div class="col-6 p-0" style="height:4rem;overflow:hidden;"><img src="img/building-4.jpg" alt="">
-                    </div>
-                    <div class="col-6 p-0" style="height:4rem;overflow:hidden;"><img src="img/building-2.jpg" alt="">
+                    <div class="col-12 p-0" style="height:100%;overflow:hidden;margin-top: 9%;margin-left: -10%;">
+                        <img src="img/logo.png" alt="">
                     </div>
                 </div>
             </div>

@@ -9,6 +9,6 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="<?php echo $level.assets_path."css/style.css";?>">
-    <title>Title</title>
+    <link rel="stylesheet" href="<?php echo $level.assets_path.'css/style.css';?>">
+    <title>NEWS</title>
 </head>

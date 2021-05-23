@@ -6,7 +6,7 @@
         private static function connect_DB()
         {
             $host='localhost';
-            $dbname='db_khai';
+            $dbname='tintuc';
             $us='root';
             $pass='';
         

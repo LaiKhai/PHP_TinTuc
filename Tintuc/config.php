@@ -5,4 +5,5 @@
     define('img_path','img/');
     define('assets_path','assets/');
     define('vendor_path','vendor/');
+    define('lib_path','lib/');
 ?>

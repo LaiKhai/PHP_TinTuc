@@ -1,4 +1,6 @@
 <?php
+    require_once($level.lib_path."db.php");
+    require_once($level.lib_path."proccess.php");
     if($isIndex==true)
     {
         require_once($level.head_path."menu_index.php");
