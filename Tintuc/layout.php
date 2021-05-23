@@ -17,7 +17,7 @@
         require_once($level.body_path."baivietchitiet.php");
         require_once($level.body_path."baivietlienquan.php");
         require_once($level.footer_path."binhluan.php");
-        require_once($level.footer_path."Footer.php");
+        require_once($level.footer_path."footer_index.php");
     }
 
 ?>

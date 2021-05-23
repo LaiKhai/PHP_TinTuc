@@ -2,7 +2,8 @@
     <div class="line">
         <?php foreach($lst_post as $pos)
         { ?>
-        <article class="bg-light mt-3 p-3 text-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <article class="bg-light mt-3 p-3 text-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+            onclick="nextPage()">
             <div class="img"><img src="<?php echo $level.img_path.$pos['prodImage'];?>" alt=""></div>
             <h5 class="p-2"><?php echo $pos['prodName'];?></h5>
             <p class="p-2" style="text-align: justify; overflow:hidden; height:20vh;">
@@ -13,6 +14,4 @@
         </article>
         <?php }?>
     </div>
-    <div class="container-fluid text-center mt-3"><button class="btn btn-primary">Xem
-            thêm...</button></div>
 </section>

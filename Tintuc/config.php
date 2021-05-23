@@ -6,4 +6,5 @@
     define('assets_path','assets/');
     define('vendor_path','vendor/');
     define('lib_path','lib/');
+    define('js_path','js/')
 ?>

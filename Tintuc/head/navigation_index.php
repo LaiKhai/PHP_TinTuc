@@ -21,30 +21,33 @@
 
                 <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
                     <li class="nav-item col-6 col-md-auto">
-                        <a class="nav-link p-2 active" aria-current="true href="" >Trang chủ</a>
+                        <a class="nav-link p-2 active" aria-current="true href="" ><i class=" fa fa-home"
+                            aria-hidden="true"></i> Trang chủ</a>
                     </li>
                     <div class=" dropdown">
-                            <span class="btn text-white-50 dropdown-toggle" id="dropdownMenuButton"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Loại
-                            </span>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <li><a class="dropdown-item" href="#">Hoạt Động Tốt</a></li>
-                                <li><a class="dropdown-item" href="#">Câu Chuyện Đẹp</a></li>
-                                <li><a class="dropdown-item" href="#">Phòng Chống Dịch</a></li>
-                            </ul>
+                        <span class="btn text-white-50 dropdown-toggle" id="dropdownMenuButton"
+                            data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-bars"></i>
+                            Loại
+                        </span>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">Hoạt Động Tốt</a></li>
+                            <li><a class="dropdown-item" href="#">Câu Chuyện Đẹp</a></li>
+                            <li><a class="dropdown-item" href="#">Phòng Chống Dịch</a></li>
+                        </ul>
+                    </div>
+                    <li class="nav-item col-6 col-md-auto">
+                        <a class="nav-link p-2" href=""><i class="fa fa-search" aria-hidden="true"></i> Tìm Kiếm</a>
+                    </li>
+                    <li class="nav-item col-6 col-md-auto">
+                        <a class="nav-link p-2 " " href="" ><i class=" far fa-address-card"></i> Trang Quản Trị</a>
+                    </li>
+                    <li class=" nav-item col-6 col-md-auto">
+                        <a class="nav-link p-2 " href="<?php echo "../admin/pages/authentication-login.php";?>"><i
+                                class="fas fa-user"></i> Đăng
+                            Nhập</a>
+                    </li>
+                    </li>
+                </ul>
             </div>
-            <li class="nav-item col-6 col-md-auto">
-                <a class="nav-link p-2" href="">Tìm Kiếm</a>
-            </li>
-            <li class="nav-item col-6 col-md-auto">
-                <a class="nav-link p-2 " " href="" >Trang Quản Trị</a>
-                </li>
-                <li class=" nav-item col-6 col-md-auto">
-                    <a class="nav-link p-2 " " href="" >Đăng Nhập</a>
-                            </li>
-                </li>
-              </ul>
-            </div>
-          </nav>
-    </header> 
+        </nav>
+    </header>
