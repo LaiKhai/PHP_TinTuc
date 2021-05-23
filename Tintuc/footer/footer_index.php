@@ -21,7 +21,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 p-0" style="height:100%;overflow:hidden;margin-top: 9%;margin-left: -10%;">
-                        <img src="img/logo.png" alt="">
+                        <img src="<?php echo $level.img_path."logo.png";?>" alt="">
                     </div>
                 </div>
             </div>

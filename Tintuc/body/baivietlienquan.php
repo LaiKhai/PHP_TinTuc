@@ -9,96 +9,26 @@
         </div>
     </div>
     <div class="row">
+        <?php foreach($lst_post as $post){?>
         <div class="col-md-12 mb-2">
             <div class="card w-100">
                 <div class="row">
                     <div class="col-5">
-                        <img class="card-img-top" src="img/tin1.jpg"
-                            alt="Để trở thành sinh viên năng động cần như thế nào?">
+                        <img class="card-img-top" src="<?php echo $level.img_path.$post['prodImage'];?>"
+                            style="height:100px;">
                     </div>
                     <div class="col">
                         <div class="card-body p-0">
                             <h6 class="card-title line-clamp-2">
-                                Để trở thành sinh viên năng động cần như thế nào?</h6>
+                                <?php echo $post['prodName'];?></h6>
                             <p class="card-time">
-                                10/10/2019 10:10</p>
+                                <?php echo $post['prodDate'];?></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-12 mb-2">
-            <div class="card w-100">
-                <div class="row">
-                    <div class="col-5">
-                        <img class="card-img-top" src="img/tin1.jpg"
-                            alt="Để trở thành sinh viên năng động cần như thế nào?">
-                    </div>
-                    <div class="col">
-                        <div class="card-body p-0">
-                            <h6 class="card-title line-clamp-2">
-                                Để trở thành sinh viên năng động cần như thế nào?</h6>
-                            <p class="card-time">
-                                10/10/2019 10:10</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12 mb-2">
-            <div class="card w-100">
-                <div class="row">
-                    <div class="col-5">
-                        <img class="card-img-top" src="img/tin1.jpg"
-                            alt="Để trở thành sinh viên năng động cần như thế nào?">
-                    </div>
-                    <div class="col">
-                        <div class="card-body p-0">
-                            <h6 class="card-title line-clamp-2">
-                                Để trở thành sinh viên năng động cần như thế nào?</h6>
-                            <p class="card-time">
-                                10/10/2019 10:10</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12 mb-2">
-            <div class="card w-100">
-                <div class="row">
-                    <div class="col-5">
-                        <img class="card-img-top" src="img/tin1.jpg"
-                            alt="Để trở thành sinh viên năng động cần như thế nào?">
-                    </div>
-                    <div class="col">
-                        <div class="card-body p-0">
-                            <h6 class="card-title line-clamp-2">
-                                Để trở thành sinh viên năng động cần như thế nào?</h6>
-                            <p class="card-time">
-                                10/10/2019 10:10</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12 mb-2">
-            <div class="card w-100">
-                <div class="row">
-                    <div class="col-5">
-                        <img class="card-img-top" src="img/tin1.jpg"
-                            alt="Để trở thành sinh viên năng động cần như thế nào?">
-                    </div>
-                    <div class="col">
-                        <div class="card-body p-0">
-                            <h6 class="card-title line-clamp-2">
-                                Để trở thành sinh viên năng động cần như thế nào?</h6>
-                            <p class="card-time">
-                                10/10/2019 10:10</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php }?>
         <div class="col-md-12 mb-2">
             <button type="button" class="btn btn-info w-100">
                 Xem thêm</button>

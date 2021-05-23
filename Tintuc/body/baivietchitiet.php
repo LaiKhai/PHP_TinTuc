@@ -2,7 +2,7 @@
 <div class="row mt-3">
     <!--Bài viết chi tiết-->
     <div class="col-lg-9 single-post">
-        <img src="../img/building-1.jpg" alt="Để trở thành sinh viên năng động cần như thế nào?"
+        <img src="<?php echo $level.img_path."covid-1.jpg";?>" alt="Để trở thành sinh viên năng động cần như thế nào?"
             class="post-thumb w-100">
         <h1 class="title">
             Để trở thành sinh viên năng động cần như thế nào?</h1>
@@ -28,8 +28,8 @@
                     nếu bạn không giỏi về những gì mà bạn thích. Không nên tự ti điều quan trọng là
                     phải có niềm đam mê, chình từ những điều đó sẽ thúc đẩy bạn nỗ lực hết mình.</p>
                 <figure id="attachment_146" style="width: 600px" class="wp-caption aligncenter">
-                    <img class="wp-image-146 size-full" src="" alt="" width="600" height="397" srcset=" sizes="
-                        (max-width: 600px) 100vw, 600px">
+                    <img class="wp-image-146 size-full" src="<?php echo $level.img_path."covid-2.jpg";?>" alt=""
+                        width="600" height="397">
                     <figcaption class="wp-caption-text">
                         <em>Để trở thành sinh viên năng động cần như thế nào?</em>
                     </figcaption>
@@ -57,11 +57,8 @@
                     vào các công ty hoặc nơi bạn làm việc sẽ tự tin hơn. Cách trưởng thành này cũng
                     là con đường sự nghiệp các bạn trẻ hiện nay cần và nên áp dụng nó.</p>
                 <figure id="attachment_145" style="width: 640px" class="wp-caption aligncenter"><img
-                        class="wp-image-145 size-full"
-                        src="http://thirdtext.com/wp-content/uploads/2018/07/de-tro-thanh-sinh-vien-nang-dong-can-nhu-the-nao-1.jpg"
-                        alt="" width="640" height="427"
-                        srcset="http://thirdtext.com/wp-content/uploads/2018/07/de-tro-thanh-sinh-vien-nang-dong-can-nhu-the-nao-1.jpg 640w, http://thirdtext.com/wp-content/uploads/2018/07/de-tro-thanh-sinh-vien-nang-dong-can-nhu-the-nao-1-300x200.jpg 300w, http://thirdtext.com/wp-content/uploads/2018/07/de-tro-thanh-sinh-vien-nang-dong-can-nhu-the-nao-1-570x380.jpg 570w"
-                        sizes="(max-width: 640px) 100vw, 640px">
+                        class="wp-image-145 size-full" src="<?php echo $level.img_path."covid-4.jpg";?>" alt=""
+                        width="640" height="427" sizes="(max-width: 640px) 100vw, 640px">
                     <figcaption class="wp-caption-text"><em>Hoạt động tình nguyện</em></figcaption>
                 </figure>
                 <p style="text-align: justify">
